@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Spotify API",
+    "name_for_model": "spotify",
+    "description_for_human": "Control Spotify playback, manage your library, and discover new music.",
+    "description_for_model": "Plugin for Spotify. Help the user to control Spotify playback, manage their Spotify library, and discover new music and podcasts using the Spotify Web API. Make sure to gather the correct IDs using the search features before attempting to find additional information.",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "http://localhost:3333/openapi.yaml"
+    },
+    "logo_url": "http://localhost:3333/logo.png",
+    "contact_email": "support@spotify.com",
+    "legal_info_url": "https://developer.spotify.com/terms/"
+  }
+  
